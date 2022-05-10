@@ -1,0 +1,46 @@
+
+.contentimg{
+   width: 700px;
+   border-radius: 30px;
+   
+}
+
+.Section{
+   display: flex;
+   flex-wrap: nowrap;
+   background-color: #e0dbd8;
+
+}
+.Content{
+    width: 800px;
+    padding: 15px;
+    line-height: 40px;
+}
+
+
+.loginbutton{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: #d28248;
+    margin-left: 70px;
+    
+}
+
+.loginbutton:hover{
+    border-bottom: 5px solid black;
+}
+
+.cont2Header{
+   color: #d28248;
+  
+}
+.FAQ{
+    text-align: center;
+    background-color: #d28248 ;
+    padding: 20px;
+}
