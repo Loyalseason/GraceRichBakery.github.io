@@ -3,6 +3,22 @@
     padding: 0;
 
 }
+
+@media screen and (max-width: 600px) {
+    .Navigationbar a:not(:first-child) {display: none;}
+    .Navigationbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .Navigationbar.responsive {position: relative;}
+    .Navigationbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&display=swap');
 .Navigationbar{
     display: flex;
